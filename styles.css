@@ -1,3 +1,13 @@
 img {
     height: 100px;
 }
+
+.star{
+    display: inline-block;
+    position: relative;
+}
+.star .s{
+    visibility:hidden;
+    position: absolute;
+    z-index: -1;
+}
